@@ -1,0 +1,171 @@
+h4 {
+	background:black;
+	font-size: 35px;
+	text-align: center;
+	padding: 15px;
+	font-family: 'Bungee Inline', cursive;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+.homepage {
+	background:black;
+	margin: 75px;
+	font-size: 50px;
+	font-family: 'Bungee Inline', cursive;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+body {
+	background:black;
+}
+
+li {
+	display: inline;
+	margin: 15px;
+	font-size: 60px;
+}
+
+ul {
+	text-align: center;
+	padding: 5px;
+	font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+
+}
+
+a {
+	text-decoration: none;
+	color: #DBD8D9;
+}
+
+a:visited {
+	color: white;
+}
+
+h1 {
+	font-size: 35px;
+	color: #9A192E;
+	text-align: left;
+	margin-top: 75px;
+	margin-left: 75px;
+	font-family: 'Candal', sans-serif;
+}
+
+.mural {
+	font-size: 20px;
+	color: grey;
+	font-family:'Raleway', sans-serif;
+	text-align: center;
+	padding-left: 40px;
+	font-weight: bold;
+}
+
+.mural a:visited {
+	color: #9A192E;
+}
+
+.mural a:hover {
+	color: #9A192E;
+	transition: all 1s;
+}
+
+.muralimg {
+	width: 350px;
+	height: 350px;
+	border: 3px solid #9A192E;
+}
+
+.subways {
+	font-size: 20px;
+	color: grey;
+	font-family:'Raleway', sans-serif;
+	text-align: center;
+	padding-left: 50px;
+	font-weight: bold;
+}
+
+.subways a:visited {
+	color: #EEC82D;
+}
+
+.subways a:hover {
+	color: #9A192E;
+	transition: all 1s;
+}
+
+.subwaysimg {
+	width: 350px;
+	height: 350px;
+	border: 3px solid #9A192E;
+}
+
+.immigrantwomenimg {
+	width: 350px;
+	height: 350px;
+	border: 3px solid #9A192E;
+}
+
+.daliimg {
+	width: 350px;
+	height: 350px;
+	border: 3px solid #9A192E;
+}
+
+.immigrantwomen {
+	font-size: 20px;
+	color: #DBD8D9;
+	font-family:'Raleway', sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+.immigrantwomen:hover {
+	color: #9A192E;
+	transition: all 1s;
+}
+
+.dali{
+	font-size: 20px;
+	color: #DBD8D9;
+	font-family:'Raleway', sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+.dali:hover {
+	color: #9A192E;
+	transition: all 1s;
+}
+
+.interactive {
+	width: 300px;
+	height: 300px;
+	border: 3px solid #9A192E;
+}
+
+.standard {
+	width: 300px;
+	height: 300px;
+	border: 3px solid #9A192E;
+}
+
+.gothic{
+	width: 300px;
+	height: 300px;
+	border: 3px solid #9A192E;
+}
+
+
+@media screen and (max-width: 400px) {
+	body h1 {
+		font-size: 200%;
+		text-align: left;
+	}
+
+}
+
+
+

@@ -1,0 +1,144 @@
+body {
+	background-color: black;
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	font-family: 'Bungee Inline', cursive;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+
+}
+h2 { 
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Bungee Inline', cursive;
+	color: white;
+	}
+
+li {
+	display: inline;
+	margin: 50px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+ul {
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	color: #9A192E ;
+}
+
+.nav a:hover {
+	color: #9A192E;
+	transition: all 1s;
+}
+
+.popular {
+	font-size: 23px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+ .image1  {
+ 	width: 30%;
+ 	float: center;
+	 }
+.image2{
+	width: 50%;
+	float: left;
+	height: 450px;
+}
+.image3{
+	height: 200px;
+	margin-top: -40px;
+	float:center;
+	width: 30%;
+}
+.image4{
+	width: 20%;
+	height: 450px;
+	margin-top: -288px;
+	float: right;
+}
+blockquote {
+	background-color: grey;
+}
+.tours {
+	margin-top:10px;
+	font-size: 23px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.tour1{
+	margin-top: -5px;
+	padding: 35px;
+	padding-bottom: 50px;
+	float: left;
+	width: 30%;
+	height:350px;
+}
+
+.tour2{
+	margin-top: -5px;
+	padding: 35px;
+	margin-left: -25px;
+	padding-bottom: 50px;
+	width: 30%;
+	height:350px;
+}
+.tour3{
+	margin-top: -433px;
+	padding: 30px;
+	padding-bottom: 50px;
+	float:right;
+	width: 30%;
+	height:350px;
+}
+
+.tourlink1 {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 15px;
+	margin: 45px;
+	margin-top: -90px;
+	max-width: 430px;
+	display: inline-block;
+}
+.tourlink2 {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 30px;
+	margin-left: -30px;
+	text-align: center;
+	margin-top: -50px;
+	top: 15px;
+	display: inline-block;
+}
+.tourlink3 {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+	margin-left: 45px;
+	text-align: right;
+	margin-top: -50px;
+	display: inline;
+} 
+@media screen and (max-width: 400px) {
+	body h1 {
+		font-size: 200%;
+		text-align: left;
+	}
